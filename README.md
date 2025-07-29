@@ -1,4 +1,4 @@
-# World At War Tools
+World at War Tools
 ------------------
 
 Tools for Call of Duty: World at War, made for speedrunning and gameplay analysis. All tools are HUD-based overlays.
@@ -56,3 +56,24 @@ Change the "^7" prefix to modify the HUD text color:
     ^7 = White
     ^8 = Grey
     ^9 = Brown
+
+
+Notes:
+------
+This mod is not compiled, so anyone can update or change it. However, it was originally made for Campaign, and using it in Zombies is not recommended.
+
+Zombies has issues because it treats the folder as a full mod. That means it expects all weapon files to be included manually. If the weapon data isn't there, it defaults to broken behavior.
+
+Symptoms include:
+- Seeing "found_a_step_trig" messages.
+- Receiving a pink cowbell weapon with "OWN3D" writen in light blue on the side and called "default weapon".
+- Some, if not all, wall weapons giving you the "default weapon" (which is the cowbell).
+
+Known working weapons in Zombies:
+- .357 Magnum
+- Flamethrower
+- PTRS-41
+- Molotov
+- Ray Gun
+
+Most other weapons and all wall weapons will give you the default cowbell weapon unless specifically added to the mod folder and loaded correctly.
