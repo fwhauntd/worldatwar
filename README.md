@@ -61,10 +61,11 @@ Change the "^7" prefix to modify the HUD text color:
     ^8 = Grey
     ^9 = Brown
 
+And you cannot do "^10". It's 0-9 otherwise you ***will*** get some issues like random numbers on the hud.
 
 Notes:
 ------
-This mod is not compiled, so anyone can update or change it. However, it was originally made for Campaign, and using it in Zombies is not recommended.
+This mod is not compiled, so anyone can update or change it. However, it was originally made for Campaign, and using it in Zombies is not recommended. And although it is open source, please do ***not*** use it as a way to cheat or get an unfair advantage.
 
 Zombies has issues because it treats the folder as a full mod. That means it expects all weapon files to be included manually. If the weapon data isn't there, it defaults to broken behavior.
 
