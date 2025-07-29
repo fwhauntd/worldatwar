@@ -34,9 +34,11 @@ Valid positions for _x/_y:
     "center_top"
     "center"
     "center_bottom"
+    
     "right_top"
     "right"
     "right_bottom"
+    
     "left_top"
     "left"
     "left_bottom"
