@@ -80,4 +80,4 @@ Known working weapons in Zombies:
 - Molotov
 - Ray Gun
 
-Most other weapons and all wall weapons will give you the default cowbell weapon unless specifically added to the mod folder and loaded correctly.
+Most other weapons and all wall weapons will give you the default cowbell weapon unless specifically added to the mod folder and loaded correctly, so until fixed please only use the velocity for campaign.
