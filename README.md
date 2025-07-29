@@ -26,8 +26,10 @@ HUD Positioning:
 ----------------
 To move the velocity HUD:
 
-    self._y = x;    // Vertical position
-    self._x = x;    // Horizontal position
+    self._x = value;    // Horizontal position
+    self._y = value;    // Vertical position
+
+You can use negative or positive values. If the HUD is too far in any direction, try using negative numbers to shift it back into view.
 
 Valid positions for _x/_y:
 
